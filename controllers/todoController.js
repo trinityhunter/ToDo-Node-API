@@ -1,4 +1,4 @@
-const Todo = require('../models/todo');
+const Todo = require('../models/Todo.js');
 
 exports.deleteTodo = async (req, res) => {
   const { id } = req.params;
